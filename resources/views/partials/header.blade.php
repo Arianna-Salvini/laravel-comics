@@ -5,7 +5,7 @@
         </div>
     </div>
     <div class="container d-flex justify-content-evenly py-3">
-        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="" class="logo_dc">
         <nav class="nav justify-content-center align-items-center px-3">
             <a class="nav-link {{ Route::currentRouteName() === 'characters' ? 'active_nav' : ''}}" href="{{route('characters')}}">CHARACTERS</a>
             <a class="nav-link {{ Route::currentRouteName() === 'comics' ? 'active_nav' : ''}}" href="{{route('comics')}}">COMICS</a>
