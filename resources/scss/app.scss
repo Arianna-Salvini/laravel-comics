@@ -23,3 +23,36 @@
     object-fit: cover;
     object-position: top;
 }
+
+.label {
+    color: white;
+    background-color: rgb(0, 98, 255);
+    padding: 0.7rem;
+    margin-left: 12px;
+    position: absolute;
+    top: -22px;
+    left: 0;
+    transform: translate(0%, 50%);
+}
+
+.current_series_box {
+    padding: 3rem 0;
+
+
+    .comic_card {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        background-color: $gray-900;
+        border: none;
+
+        .card_top {
+            height: 180px;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        .card_text {
+            height: 4rem;
+        }
+    }
+}
