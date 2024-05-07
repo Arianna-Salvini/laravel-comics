@@ -1,1 +1,6 @@
 @import '~bootstrap/scss/bootstrap';
+
+.active_nav {
+    color: rgb(0, 98, 255);
+    border-bottom: 2px solid rgb(0, 98, 255);
+}
