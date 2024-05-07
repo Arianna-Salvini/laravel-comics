@@ -1,4 +1,4 @@
-<header class="d-flex p-5">
+<header class="d-flex p-5 ">
     <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="" class="">
     <nav class="nav justify-content-center align-items-center px-3">
         <a class="nav-link {{ Route::currentRouteName() === 'characters' ? 'active_nav' : ''}}" href="{{route('characters')}}">CHARACTERS</a>
