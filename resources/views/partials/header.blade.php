@@ -2,7 +2,7 @@
     <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="" class="">
     <nav class="nav justify-content-center align-items-center px-3">
         <a class="nav-link {{ Route::currentRouteName() === 'characters' ? 'active_nav' : ''}}" href="{{route('characters')}}">CHARACTERS</a>
-        <a class="nav-link {{ Route::currentRouteName() === 'comics' ? 'active_nav' : ''}}" href="{{route('characters')}}">COMICS</a>
+        <a class="nav-link {{ Route::currentRouteName() === 'comics' ? 'active_nav' : ''}}" href="{{route('comics')}}">COMICS</a>
         <a class="nav-link {{ Route::currentRouteName() === 'movies' ? 'active_nav' : ''}}" href="{{route('movies')}}">MOVIES</a>
         <a class="nav-link {{ Route::currentRouteName() === 'tv' ? 'active_nav' : ''}}" href="{{route('tv')}}">TV</a>
         <a class="nav-link {{ Route::currentRouteName() === 'games' ? 'active_nav' : ''}}" href="{{route('games')}}">GAMES</a>
