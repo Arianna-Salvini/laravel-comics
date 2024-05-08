@@ -1,8 +1,9 @@
 @extends('layout.app')
 
 @section('content')
-<div>
-    <h2>Characters</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium perferendis reprehenderit soluta voluptas eligendi, sit at maiores esse assumenda? Quod.</p>
-</div>
+    <div class="bg-dark text-light conatainer text-center" style="min-height: 500px";>
+        <h2 class="py-5">Characters</h2>
+        <p> Heroes not found, sorry...
+            They are working to keep the world safe!</p>
+    </div>
 @endsection
