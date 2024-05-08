@@ -148,5 +148,32 @@
 
     </div>
     <div class="bottom_footer">
-    </div>
+        <div class="container h-100 d-flex justify-content-between">
+            <div class="footer_bottom_right d-flex align-items-center">
+                <button type="button" class="btn btn-outline-primary p-2 rounded-0 text-light">SIGN-UP NOW!</button>
+            </div>
+            <div class="footer_bottom_left d-flex justify-content-center align-items-center">
+                <h4 class="text-primary px-2 pt-2">FOLLOW US</h4>
+                <div
+                    class=" social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div
+                    class=" social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div
+                    class=" social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div
+                    class=" social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+                <div
+                    class=" social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    <i class="fa-light fa-location-dot"></i>
+                </div>
+            </div>
+        </div>
 </footer>
