@@ -1,5 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 
+
+// Header 
 .top_header {
     background-color: rgb(0, 98, 255);
     color: white;
@@ -24,6 +26,8 @@
     object-position: top;
 }
 
+
+// Comics page
 .label {
     color: white;
     background-color: rgb(0, 98, 255);
@@ -56,3 +60,28 @@
         }
     }
 }
+
+.call_foraction_banner {
+    height: 150px;
+    background-color: rgb(0, 98, 255);
+
+    .call_foraction {
+        height: 100%;
+
+        >span {
+            height: 100%;
+            font-size: 0.9rem;
+        }
+
+        img {
+            height: 40%;
+        }
+
+        svg {
+            height: 30%;
+        }
+    }
+
+}
+
+//Footer
