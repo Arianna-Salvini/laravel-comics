@@ -85,3 +85,40 @@
 }
 
 //Footer
+
+footer {
+    height: 500px;
+    width: 100%;
+
+    .top_footer {
+        height: 400px;
+        width: 100%;
+        background-image: url(../img/footer-bg.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+
+        .footer_top_right {
+            width: 50%;
+
+            img {
+                margin-top: -70px;
+            }
+
+            h5 {
+                font-size: 1.3rem;
+            }
+
+            .links {
+                font-size: 0.8rem;
+            }
+
+        }
+    }
+
+    .bottom_footer {
+        height: 100px;
+        width: 50%;
+    }
+}
