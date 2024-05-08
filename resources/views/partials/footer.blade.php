@@ -30,10 +30,6 @@
                                         class="link-light text-decoration-none fw-lighter">Games</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('collectibles') }}"
-                                        class="link-light text-decoration-none fw-lighter">Collectibles</a>
-                                </li>
-                                <li>
                                     <a href="{{ route('videos') }}"
                                         class="link-light text-decoration-none fw-lighter">Videos</a>
                                 </li>
@@ -52,13 +48,12 @@
                             <ul class="list-unstyled">
                                 <h5 class="mb-0">SHOP</h5>
                                 <li>
-                                    <a href="{{ route('shop') }}" class="link-light text-decoration-none fw-lighter">DC
-                                        Shop</a>
+                                    <a href="{{ route('shop') }}"
+                                        class="link-light text-decoration-none fw-lighter">Shop DC</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('shop') }}" class="link-light text-decoration-none fw-lighter">DC
-                                        Shop
-                                        Collectabiles</a>
+                                    <a href="{{ route('collectibles') }}"
+                                        class="link-light text-decoration-none fw-lighter">Shop DC Collectibles</a>
                                 </li>
                             </ul>
                         </div>
