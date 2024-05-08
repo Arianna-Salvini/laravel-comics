@@ -23,31 +23,31 @@
         </div>
         <div class="call_foraction_banner ">
             <div class="call_foraction container mt-3 d-flex align-items-center justify-content-around">
-                <span class=" d-flex align-items-center">
+                <a href="#" alt="digital logo" class=" d-flex align-items-center">
                     <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="Dc comic digital link">
                     <span class="text-light ps-3">
                         DIGITAL COMICS
                     </span>
-                </span>
-                <span class=" d-flex align-items-center">
+                </a>
+                <a href="#" alt="digital logo" class=" d-flex align-items-center">
                     <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="Dc comic digital link">
                     <span class="text-light ps-3">
                         DC MERCHANDISE
                     </span>
-                </span class=" d-flex align-items-center">
-                <span class=" d-flex align-items-center">
+                </a>
+                <a href="#" alt="digital logo" class=" d-flex align-items-center">
                     <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="Dc comic digital link">
                     <span class="text-light ps-3">
                         SUBSCRIPTION
                     </span>
-                </span>
-                <span class=" d-flex align-items-center">
+                </a>
+                <a href="#" alt="digital logo" class=" d-flex align-items-center">
                     <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="Dc comic digital link">
                     <span class="text-light ps-3">
                         COMICS SHOP LOCATOR
                     </span>
-                </span>
-                <span class=" d-flex align-items-center">
+                </a>
+                <a href="#" alt="digital logo" class=" d-flex align-items-center">
                     <svg version="1.1" id="Layer_2_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
                         viewBox="0 0 79.5 50.9" xml:space="preserve">
                         <style>
@@ -68,7 +68,7 @@
                     <span class="text-light ps-3">
                         DC POWER VISA
                     </span>
-                </span>
+                </a>
             </div>
         </div>
     @endsection
