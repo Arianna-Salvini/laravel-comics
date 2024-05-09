@@ -23,12 +23,19 @@ Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
 
-
 Route::get('comics', function () {
     $db_comics = config('comics-db.comics');
     // dd($comics);
     return view('comics', compact('db_comics'));
 })->name('comics');
+
+Route::get('/single_page_comic/{id}', function ($id) {
+
+    abort_unless($id >= 0 && $id < count(config('comics-db.comics')), 404);
+    $db_comics = config('comics-db.comics');
+    // dd($comics);
+    return view('single_page_comic', compact('db_comics'));
+})->name('single_page_comic');
 
 
 Route::get('movies', function () {
