@@ -30,11 +30,10 @@ Route::get('/comics', function () {
 })->name('comics');
 
 Route::get('/single_page_comic/{id}', function ($id) {
-
     abort_unless($id >= 0 && $id < count(config('comics-db.comics')), 404);
-    $db_comics = config('comics-db.comics');
-    dd($db_comics);
-    return view('single_page_comic', compact('db_comics'));
+    $comic = config('comics-db.comics')[$id];
+     //dd($comics);
+    return view('single_comic.single_page_comic', compact('comic'));
 })->name('single_page_comic');
 
 
