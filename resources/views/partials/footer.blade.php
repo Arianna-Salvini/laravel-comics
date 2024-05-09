@@ -49,11 +49,12 @@
                                 <h5 class="mb-0">SHOP</h5>
                                 <li>
                                     <a href="{{ route('shop') }}"
-                                        class="link-light text-decoration-none fw-lighter">Shop DC</a>
+                                        class="link-light text-decoration-none fw-lighter dc_link">Shop DC</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('collectibles') }}"
-                                        class="link-light text-decoration-none fw-lighter">Shop DC Collectibles</a>
+                                        class="link-light text-decoration-none fw-lighter">Shop DC
+                                        Collectibles</a>
                                 </li>
                             </ul>
                         </div>
@@ -150,23 +151,23 @@
             <div class="footer_bottom_left d-flex justify-content-center align-items-center">
                 <h4 class="text-primary px-2 pt-2">FOLLOW US</h4>
                 <div
-                    class="text-dark  social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    class="text-dark social_bg bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
                     <i class="fa-brands fa-facebook-f"></i>
                 </div>
                 <div
-                    class="text-dark  social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    class="text-dark social_bg bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
                     <i class="fa-brands fa-twitter"></i>
                 </div>
                 <div
-                    class="text-dark  social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    class="text-dark social_bg bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
                     <i class="fa-brands fa-youtube"></i>
                 </div>
                 <div
-                    class=" text-dark  social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    class="text-dark social_bg bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
                     <i class="fa-brands fa-pinterest-p"></i>
                 </div>
                 <div
-                    class="text-dark social_bg bg-secondary bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
+                    class="text-dark social_bg bg-opacity-50 mx-1 p-1 d-flex justify-content-center align-items-center ">
                     <i class="fa-solid fa-location-dot"></i>
                 </div>
             </div>

@@ -4,6 +4,6 @@
     <div class="bg-dark text-light conatainer text-center" style="min-height: 500px";>
         <h2 class="py-5">Fans</h2>
         <p> Work in progress...
-            Villainshave kidnapped our fans!</p>
+            Villains have kidnapped our fans!</p>
     </div>
 @endsection

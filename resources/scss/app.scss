@@ -116,6 +116,10 @@ footer {
 
             .links {
                 font-size: 0.8rem;
+
+                .dc_link:hover {
+                    color: rgb(0, 98, 255);
+                }
             }
 
         }
@@ -128,8 +132,15 @@ footer {
         .social_bg {
             width: 2.5rem;
             height: 2.5rem;
+            background-color: rgba(116, 116, 130, 0.485);
             border-radius: 50%;
-        }
 
+            &:hover {
+                width: 2.5rem;
+                height: 2.5rem;
+                background-color: rgba(116, 116, 130, 0.5);
+                background-color: rgba(0, 98, 255, 0.5);
+            }
+        }
     }
 }

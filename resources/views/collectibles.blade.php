@@ -4,6 +4,6 @@
     <div class="bg-dark text-light conatainer text-center" style="min-height: 500px";>
         <h2 class="py-5">Collectibles</h2>
         <p> Collectibles no found yet... Sorry!
-            This must be the work of some super villain! Use makes a mess</p>
+            This must be the work of some super villain!</p>
     </div>
 @endsection
