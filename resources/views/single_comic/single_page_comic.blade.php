@@ -69,7 +69,7 @@
                 </div>
             </div>
         </div>
-        <div class="call_foraction_banner ">
+        <div class="call_foraction_banner pb-5">
             <div class="call_foraction container mt-3 d-flex align-items-center justify-content-around">
                 <a href="#" alt="digital logo" class=" d-flex align-items-center">
                     <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}"
@@ -119,5 +119,5 @@
                     </span>
                 </a>
             </div>
-        </div>s
+        </div>
     @endsection
