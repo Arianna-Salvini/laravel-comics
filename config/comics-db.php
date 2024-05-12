@@ -10,6 +10,9 @@ return [
             "series" => "Action Comics",
             "sale_date" => "2018-10-02",
             "type" => "comic book",
+            "writers"=>" Brian Michael Bendis, Louise Simonson, Paul Dini, Tom King, Jerry Siegel, Paul Levitz, Peter J. Tomasi, Dan Jurgens, Richard Donner, Marv Wolfman,
+            Geoff Johns, Brad Meltzer, Scott Snyder",
+            "artists" =>"Curt Swan, Joe Shuster, Jim Lee, Neal Adams, Rafael Albuquerque, Various, John Cassaday, Dan Jurgens, Olivier Coipel, Clay Man, Patrick Gleason, José Luis García-López",
         ],
         [
             "title" => "American Vampire 1976 #1",
@@ -19,6 +22,8 @@ return [
             "series" => "American Vampire 1976",
             "sale_date" => "2020-10-06",
             "type" => "comic book",
+            "writers"=>"Scott Snyder ",
+            "artists" =>"Rafael Albuquerque "
         ],
         [
             "title" => "Aquaman Vol. 4: Underworld",
@@ -28,6 +33,8 @@ return [
             "series" => "Aquaman",
             "sale_date" => "2018-01-24",
             "type" => "graphic novel",
+            "writers"=>"Dan Abnett",
+            "artists" =>"Stjepan Sejic"
         ],
         [
             "title" => "Batgirl #1",
@@ -37,6 +44,9 @@ return [
             "series" => "Batgirl",
             "sale_date" => "2016-07-27",
             "type" => "comic book",
+            "writers"=>" Adam Beechen",
+            "artists" =>"Jonathan Glapion, Mark McKenna, Carlos Ferreira, J. Calafiore "
+
         ],
         [
             "title" => "Batman #56",
@@ -46,6 +56,8 @@ return [
             "series" => "Batman",
             "sale_date" => "2018-10-03",
             "type" => "comic book",
+            "writers"=>"Tom King ",
+            "artists" =>"Tony S. Daniel "
         ],
         [
             "title" => "Batman Beyond #1",
@@ -55,6 +67,9 @@ return [
             "series" => "Batman Beyond",
             "sale_date" => "2016-10-26",
             "type" => "comic book",
+            "writers"=>"Dan Jurgens",
+            "artists" =>"Bernard Chang"
+
         ],
         [
             "title" => "Batman/Superman #1",
@@ -64,6 +79,8 @@ return [
             "series" => "Batman/Superman",
             "sale_date" => "2019-08-28",
             "type" => "comic book",
+            "writers"=>"Joshua Williamson",
+            "artists" =>"David Marquez "
         ],
         [
             "title" => "Batman/Superman Annual #1",
@@ -73,6 +90,8 @@ return [
             "series" => "Batman/Superman Annual",
             "sale_date" => "2020-09-29",
             "type" => "comic book",
+            "writers"=>"Joshua Williamson",
+            "artists" =>"Clayton Henry, Gleb Melnikov, Dale Eaglesham "
         ],
         [
             "title" => "Batman: The Joker War Zone #1",
@@ -82,6 +101,8 @@ return [
             "series" => "Batman: The Joker War Zone",
             "sale_date" => "2020-09-29",
             "type" => "comic book",
+            "writers"=>"Sam Johns, John Ridley, Joshua Williamson ",
+            "artists" =>"Ashley A. Woods, James Stokoe, Guillem March, Darko Lafuente, Olivier Coipel "
         ],
         [
             "title" => "Batman: Three Jokers #1",
@@ -91,6 +112,8 @@ return [
             "series" => "Batman: Three Jokers",
             "sale_date" => "2020-08-25",
             "type" => "comic book",
+            "writers"=>" Geoff Johns",
+            "artists" =>"Jason Fabok"
         ],
         [
             "title" => "Batman: White Knight Presents: Harley Quinn #1",
@@ -100,6 +123,8 @@ return [
             "series" => "Batman: White Knight Presents: Harley Quinn",
             "sale_date" => "2020-10-20",
             "type" => "comic book",
+            "writers"=>"Katana Collins",
+            "artists" =>"Matteo Scalera"
         ],
         [
             "title" => "Catwoman Vol. 1: Copycats",
@@ -109,6 +134,8 @@ return [
             "series" => "Catwoman",
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
+            "writers"=>"Joëlle Jones ",
+            "artists" =>"Fernando Blanco, Joëlle Jones"
         ]
     ]
 ];
