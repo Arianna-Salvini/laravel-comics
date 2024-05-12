@@ -39,9 +39,15 @@ $comic_light: #6d7b90;
     height: 70px;
 }
 
+a.nav-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 .active_nav {
     color: $comic_primary;
-    border-bottom: 2px solid $comic_primary;
+    border-bottom: 4px solid $comic_primary;
 }
 
 .hero {
