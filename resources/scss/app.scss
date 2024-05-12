@@ -18,6 +18,10 @@ $comic_light: #6d7b90;
     color: $comic_primary_dark;
 }
 
+.comic_primary_light {
+    color: $comic_primary_light;
+}
+
 .comic_color_light {
     color: $comic_light;
 }
@@ -217,4 +221,15 @@ footer {
 
 p.comic_color_light {
     font-size: 0.8rem;
+}
+
+.specific_details {
+    height: 380px;
+    width: 100%;
+
+    .specific_details_box {
+        width: 50%;
+        font-size: 0.8rem;
+    }
+
 }
