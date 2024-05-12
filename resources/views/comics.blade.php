@@ -23,6 +23,7 @@
                     MORE</button>
             </div>
         </div>
+        {{-- call fo action --}}
         <div class="call_foraction_banner ">
             <div class="call_foraction container mt-3 d-flex align-items-center justify-content-around">
                 <a href="#" alt="digital logo" class=" d-flex align-items-center">
