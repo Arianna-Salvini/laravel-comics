@@ -29,10 +29,11 @@ Route::get('/comics', function () {
     return view('comics', compact('db_comics'));
 })->name('comics');
 
+// Single page connected to page comics 
 Route::get('/single_page_comic/{id}', function ($id) {
     abort_unless($id >= 0 && $id < count(config('comics-db.comics')), 404);
     $comic = config('comics-db.comics')[$id];
-     //dd($comics);
+     ($comic['thumb']);
     return view('single_comic.single_page_comic', compact('comic'));
 })->name('single_page_comic');
 

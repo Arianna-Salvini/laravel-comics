@@ -144,3 +144,16 @@ footer {
         }
     }
 }
+
+//Single page layout
+
+.comic_img {
+    height: 190px;
+    margin-top: -200px;
+
+    >img {
+        height: 100%;
+        object-fit: contain;
+        border: 2px solid white;
+    }
+}

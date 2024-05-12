@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container">
+        <div class="comic_img mx-5">
+            <img src="{{ $comic['thumb'] }}" alt="Image of {{ $comic['title'] }}" class="shadow-lg">
+        </div>
         <div class="d-flex">
             <div class="comic_details p-5">
                 <h2 class="text-uppercase">{{ $comic['title'] }}</h2>
@@ -21,6 +24,9 @@
                 <h4 class="text-end">ADVERTISMENT</h4>
                 <img src="{{ Vite::asset('resources/img/adv.jpg') }}" alt="">
             </div>
+        </div>
+        <div class="div">
+
         </div>
     </div>
 @endsection
