@@ -12,9 +12,14 @@ $comic_primary_dark: #01496e;
 $comic_primary_light: #00a9d9;
 $comic_success: #55ba59;
 $comic_lighter: #ffffff;
+$comic_light: #6d7b90;
 
-comic_primary_dark {
+.comic_primary_dark {
     color: $comic_primary_dark;
+}
+
+.comic_color_light {
+    color: $comic_light;
 }
 
 // Header 
@@ -196,4 +201,20 @@ footer {
         bottom: 12px;
         transform: translate(0%, 50%);
     }
+}
+
+.shop_box {
+    color: $comic_lighter;
+    background-color: $comic_success;
+    border: 1px solid $comic_primary_dark;
+
+    .price {
+        border-right: 1px solid $comic_primary_dark;
+        padding: 1rem;
+        flex-grow: 1;
+    }
+}
+
+p.comic_color_light {
+    font-size: 0.8rem;
 }

@@ -9,18 +9,23 @@
         </div>
         <div class="d-flex">
             <div class="comic_details p-5">
-                <h2 class="text-uppercase">{{ $comic['title'] }}</h2>
-                <div class="shop_box bg-success d-flex justify-content-between align-items-center px-4">
-                    <div class="price">
-                        U.S Price:
-                        <strong>{{ $comic['price'] }}</strong>
+                <h2 class="text-uppercase comic_primary_dark">{{ $comic['title'] }}</h2>
+                <div class="shop_box d-flex justify-content-between align-items-center my-4 ">
+                    <div class="price d-flex justify-content-between">
+                        <div>
+                            U.S Price:
+                            <strong>{{ $comic['price'] }}</strong>
+                        </div>
+                        <div class="fw-lighter text-uppercase">
+                            Avalable
+                        </div>
                     </div>
-                    <div class="availability d-flex justify-content-between align-items-center py-2">
-                        <div class="px-2">Check Availability </div>
+                    <div class="availability d-flex justify-content-between align-items-center p-2">
+                        <div class="pe-2">Check Availability </div>
                         <i class="fa-solid fa-caret-down border-dark-left"></i>
                     </div>
                 </div>
-                <p>{{ $comic['description'] }}</p>
+                <p class="comic_color_light">{{ $comic['description'] }}</p>
             </div>
             <div class="advertisment p-5">
                 <h4 class="text-end">ADVERTISMENT</h4>
