@@ -4,6 +4,8 @@
     <div class="container">
         <div class="comic_img mx-5">
             <img src="{{ $comic['thumb'] }}" alt="Image of {{ $comic['title'] }}" class="shadow-lg">
+            <div class="label_comic type">COMIC BOOK</div>
+            <div class="label_comic view">VIEW GALLLERY</div>
         </div>
         <div class="d-flex">
             <div class="comic_details p-5">
